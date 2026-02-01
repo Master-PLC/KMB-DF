@@ -1,0 +1,61 @@
+from . import FBM_L, FBM_NL, FBM_NP, LSTM, MICN, PDF, TCN, AdaMSHyper, Autoformer, Crossformer, CycleNet, DLinear, \
+    ETSformer, FEDformer, FiLM, Fredformer, FreTS, Informer, Koopa, LightTS, MultiPatchFormer, \
+    Nonstationary_Transformer, PatchMLP, PatchTST, PAttn, Pyraformer, Reformer, SCINet, SegRNN, SimpleTM, \
+    TemporalFusionTransformer, TiDE, TimeBridge, TimeKAN, TimeMixer, TimesNet, TimeXer, TQNet, Transformer, TSMixer, \
+    WPMixer, iTransformer, xPatch, sLSTM, P_sLSTM, MoU, TimeBase, CFPT
+
+MODEL_REQUIRES_CYCLE = [
+    'CycleNet',
+    'TQNet',
+]
+
+MODEL_DICT = {
+    'AdaMSHyper': AdaMSHyper,
+    'Autoformer': Autoformer,
+    'CFPT': CFPT,
+    'Crossformer': Crossformer,
+    'CycleNet': CycleNet,
+    'DLinear': DLinear,
+    'ETSformer': ETSformer,
+    'FBM_L': FBM_L,
+    'FBM_NL': FBM_NL,
+    'FBM_NP': FBM_NP,
+    'FEDformer': FEDformer,
+    'FiLM': FiLM,
+    'FreTS': FreTS,
+    'Fredformer': Fredformer,
+    'Informer': Informer,
+    'iTransformer': iTransformer,
+    'Koopa': Koopa,
+    'LightTS': LightTS,
+    'LSTM': LSTM,
+    'MICN': MICN,
+    'MoU': MoU,
+    'MultiPatchFormer': MultiPatchFormer,
+    'Nonstationary_Transformer': Nonstationary_Transformer,
+    'PatchMLP': PatchMLP,
+    'PatchTST': PatchTST,
+    'PAttn': PAttn,
+    'PDF': PDF,
+    'Pyraformer': Pyraformer,
+    'P_sLSTM': P_sLSTM,
+    'Reformer': Reformer,
+    'sLSTM': sLSTM,
+    'SCINet': SCINet,
+    'SegRNN': SegRNN,
+    'SimpleTM': SimpleTM,
+    'TCN': TCN,
+    'TemporalFusionTransformer': TemporalFusionTransformer,
+    'TiDE': TiDE,
+    'TimeBase': TimeBase,
+    'TimeBridge': TimeBridge,
+    'TimeKAN': TimeKAN,
+    'TimeMixer': TimeMixer,
+    'TimesNet': TimesNet,
+    'TimeXer': TimeXer,
+    'Transformer': Transformer,
+    'TQNet': TQNet,
+    'TSMixer': TSMixer,
+    'WPMixer': WPMixer,
+    'xPatch': xPatch,
+}
