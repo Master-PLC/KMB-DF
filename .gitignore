@@ -251,5 +251,6 @@ analyze/*
 
 dataset/*
 !dataset/ETT-small/
+!dataset/m5/
 
 /figure*
